@@ -16751,7 +16751,7 @@ SLIDER
 }
 
 .keen-slider__slide {
-  overflow: visible !important; 
+  overflow: hidden !important; 
 }
 
 .arrow:hover {
