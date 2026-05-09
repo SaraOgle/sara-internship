@@ -16,10 +16,13 @@ const HotCollections = () => {
       spacing: 15,
     },
     breakpoints: {
-      "(max-width: 1000px)": {
+      "(max-width: 1200px)": {
+        slides: { perView: 3, spacing: 10 },
+      },
+      "(max-width: 760px)": {
         slides: { perView: 2, spacing: 10 },
       },
-      "(max-width: 500px)": {
+      "(max-width: 560px)": {
         slides: { perView: 1, spacing: 10 },
       },
     },

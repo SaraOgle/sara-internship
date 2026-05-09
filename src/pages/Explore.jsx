@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import axios from "axios";
 import SubHeader from "../images/subheader.jpg";
 import ExploreItems from "../components/explore/ExploreItems";
 
